@@ -1,0 +1,188 @@
+/* styles.css */
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* styles.css */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* styles.css */
+
+.video-list {
+  margin-top: 20px;
+}
+
+.video-item {
+  margin-bottom: 10px;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video-description {
+  font-size: 14px;
+  color: #666;
+}
+
+.video-form {
+  margin-top: 20px;
+}
+
+.video-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.video-form input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.video-form button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.video-form button:hover {
+  background-color: #555;
+}
+
+/* styles.css */
+
+.form-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.form-group button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group button:hover {
+  background-color: #555;
+}
+
+/* styles.css */
+
+.video-list {
+  margin-top: 20px;
+}
+
+.video-item {
+  margin-bottom: 10px;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.video-description {
+  font-size: 14px;
+  color: #666;
+}
+
+/* styles.css */
+
+.video-form {
+  margin-top: 20px;
+}
+
+.video-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.video-form input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.video-form button {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.video-form button:hover {
+  background-color: #555;
+}
