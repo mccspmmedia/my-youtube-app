@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import VideoList from './components/VideoList';
-import VideoForm from './components/VideoForm';
+import VideoList from '../components/VideoList';
+import VideoForm from '../components/VideoForm';
 
 const HomePage: React.FC = () => {
     const [videos, setVideos] = useState<string[]>([]);

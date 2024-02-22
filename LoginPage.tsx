@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { users } from '../data/users'; // Импортируем список пользователей
+import { users } from './data/users'; // Импортируем список пользователей
+import { Router } from 'react-router-dom'; // Заменили BrowserRouter на Router
 
 const LoginPage: React.FC = () => {
     const [username, setUsername] = useState('');
