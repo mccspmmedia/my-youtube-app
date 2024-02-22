@@ -9,7 +9,7 @@ import './styles.css';
 
 const App: React.FC = () => {
   return (
-    <Provider store={store}>
+    <Provider store={store} children={undefined}>
       <BrowserRouter>
         <Switch>
           <Route path="/" exact Component={HomePage} />

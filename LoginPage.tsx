@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { users } from './data/users'; // Импортируем список пользователей
-import { Router } from 'react-router-dom'; // Заменили BrowserRouter на Router
+import users, { User } from './data/users';
 
 const LoginPage: React.FC = () => {
     const [username, setUsername] = useState('');
@@ -11,8 +10,8 @@ const LoginPage: React.FC = () => {
     const handleSubmit = (event: React.FormEvent) => {
         event.preventDefault();
         // Проверяем введенные учетные данные с данными пользователей
-        const user = users.find(user => user.username === username && user.password === password);
-        if (user) {
+        const foundUser = users.find(user => user.username === username && user.password === password);
+        if (foundUser) {
             // Если пользователь найден, перенаправляем на защищенную страницу
             history.push('/private');
         } else {
